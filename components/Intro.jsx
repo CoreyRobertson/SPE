@@ -27,7 +27,7 @@ const Intro = () => {
             </div>
             <div className='intro_body'>
                 {/* Conditional layout based on isMobile state */}
-                <Image className='joe1' src='/images/Joe1.svg' height={500} width={400} layout={isMobile ? 'responsive' : 'fixed'} alt='Joe' />
+                <Image className='joe1' src='/images/Joe1.svg' height={500} width={400} layout={isMobile ? 'responsive' : 'fixed'} alt='Joe' quality={20} />
                 <div className='intro_text-section'>
                     <h4 className='main_heading'>Sculpt Your Space with <span> Melbourne’s Concrete Cutting Experts</span></h4>
                     <p className='para'>Leveraging advanced techniques and innovative practices, we set the standard for concrete cutting and excavation services in Melbourne. Our team is continually trained in the latest concrete cutting and excavation practices to ensure superior results in every project, from simple cuttings to complex demolitions. With Sofra Plumbing and Excavation, you gain access to cutting-edge solutions that keep your project moving smoothly and efficiently.</p>

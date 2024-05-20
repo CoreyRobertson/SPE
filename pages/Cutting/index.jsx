@@ -9,7 +9,7 @@ const index = () => {
         <page>
             <section className='hero_section'>
                 <div className='hero_image-container'>
-                    <Image className='hero_image' src='/images/BG2.svg' alt='Hero' layout='fill' quality={100} />
+                    <Image className='hero_image' src='/images/BG2.svg' alt='Hero' layout='fill' quality={20} />
                 </div>
                 <div className='hero_text-container'>
                     <div className='page_logo-container'>

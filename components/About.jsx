@@ -30,7 +30,7 @@ const About = () => {
             </div>
             <div className='about_image'>
                 {/* Conditional layout based on isMobile state */}
-                <Image src='/images/Joe2.jpg' alt='Joe2' height={500} width={400} layout={isMobile ? 'responsive' : 'fixed'} />
+                <Image src='/images/Joe2.jpg' alt='Joe2' height={500} width={400} layout={isMobile ? 'responsive' : 'fixed'} quality={20} />
             </div>
         </section>
     );
