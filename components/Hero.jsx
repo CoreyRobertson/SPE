@@ -6,7 +6,7 @@ const Hero = () => {
     return (
         <section className='hero_section'>
             <div className='hero_image-container'>
-                <Image className='hero_image' src='/images/BG2.svg' alt='Saw Background' layout='fill' quality={10} />
+                <Image className='hero_image' src='/images/BG2.jpg' alt='Saw Background' layout='fill' quality={100} />
             </div>
             <div className='hero_text-container'>
                 <h3 className='main_heading h3-first'>EXACT CUTS</h3>
