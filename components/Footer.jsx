@@ -26,15 +26,15 @@ const Footer = () => {
                 <div className='footer_column'>
                     <h4 className='heading'>Main</h4>
                     <Link href='/' className='para footer_link'>Home</Link>
-                    <Link href='/' className='para footer_link'>About</Link>
-                    <Link href='/' className='para footer_link'>Testimonials</Link>
-                    <Link href='/' className='para footer_link'>Quote</Link>
+                    <Link href='/#about' className='para footer_link'>About</Link>
+                    <Link href='/#testimonials' className='para footer_link'>Testimonials</Link>
+                    <Link href='/#quote' className='para footer_link'>Quote</Link>
                 </div>
                 <div className='footer_column'>
                     <h4 className='heading'>Services</h4>
-                    <Link href='/' className='para footer_link'>Cutting</Link>
-                    <Link href='/' className='para footer_link'>Excavation</Link>
-                    <Link href='/' className='para footer_link'>Coring</Link>
+                    <Link href='/Cutting' className='para footer_link'>Cutting</Link>
+                    <Link href='/Excavation' className='para footer_link'>Excavation</Link>
+                    <Link href='/Coring' className='para footer_link'>Coring</Link>
                     <Link href='/' className='para footer_link'>Plumbing</Link>
                 </div>
                 <div className='footer_column'>

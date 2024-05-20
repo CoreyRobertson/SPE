@@ -5,7 +5,7 @@ import Link from 'next/link'
 const Featured = () => {
     return (
         <section>
-            <div className='featured_container'>
+            <div className='featured_container' id='featured'>
                 <div className='featured_card'>
                     <Image src='/images/Cutting.svg' alt='Cutting' layout='fill' quality={20} />
                     <Link className='main_heading' href='/Cutting'>CUTTING</Link>

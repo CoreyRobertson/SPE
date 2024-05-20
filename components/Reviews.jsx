@@ -7,7 +7,7 @@ import Carousel from './Carousel'
 
 const Reviews = () => {
     return (
-        <section className='reviews_section'>
+        <section className='reviews_section' id='testimonials'>
             <div className='intro_background-container'>
                 <Image src='/images/Hero.jpg' alt='Hero Background' layout='fill' className='intro_background' quality={100} />
             </div>

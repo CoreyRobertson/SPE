@@ -22,7 +22,7 @@ const About = () => {
     return (
         <section className='about_section' id='about'>
             <div className='about_text-section'>
-                <h4 className='main_heading'>Sculpt Your Space with <span> Melbourne’s Concrete Cutting Experts</span></h4>
+                <h4 className='main_heading'>Dedicated to <span>Precision and Excellence</span></h4>
                 <p className='para'>At Sofra Plumbing and Excavation, our decade of experience in the Melbourne construction industry equip us to skillfully navigate the complexities of both residential and commercial projects. With our state-of-the-art equipment and highly skilled operators, we deliver cutting, plumbing and excavation services around Melbourne metro. We recognize that no two projects are alike, and we are committed to providing bespoke solutions tailored to meet the specific requirements of each project, ensuring optimal outcomes.</p>
                 <div className='hero_buttons-container'>
                     <a className='para' href='#quote'>REQUEST A QUOTE</a>

@@ -24,8 +24,8 @@ const Overlay = ({ onClose }) => {
                     <IoIosClose className='close_icon' />
                 </button>
                 <Link href='/' className='overlay_link heading' onClick={onClose}>Home</Link>
-                <Link href='/' className='overlay_link heading' onClick={onClose}>Services</Link>
-                <Link href='/' className='overlay_link heading' onClick={onClose}>Contact</Link>
+                <Link href='/#featured' className='overlay_link heading' onClick={onClose}>Services</Link>
+                <Link href='/#quote' className='overlay_link heading' onClick={onClose}>Contact</Link>
                 <a className='para overlay_button' href="tel:+61409534949">CALL US</a>
                 <Image src='/images/logo2.svg' alt='logo' width={180} height={100} />
 
