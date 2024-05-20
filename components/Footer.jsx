@@ -20,7 +20,7 @@ const Footer = () => {
                     <p className='para'>Sofra Plumbing and Excavation</p>
                     <a className='para'>sofraplumbingandexcavation@gmail.com</a>
                     <a className='para'>Joe Sofra | 0409 534 949</a>
-                    <a className='para'>Melbourne Metro, AUS</a>
+                    <p className='para'>Melbourne Metro, AUS</p>
                     <p className='para'>ABN 21 672 331 029</p>
                 </div>
                 <div className='footer_column'>
@@ -39,8 +39,8 @@ const Footer = () => {
                 </div>
                 <div className='footer_column'>
                     <h4 className='heading'>Follow Us</h4>
-                    <Link href='https://www.tiktok.com/@sofraplumbingexcavation?is_from_webapp=1&sender_device=pc' className='para footer_link'><FaTiktok style={{ fontSize: '42px', color: '#FFFEFD', }} /></Link>
-                    <Link href='https://www.instagram.com/sofra_plumbingexcavation?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' className='para footer_link'><FaInstagram style={{ fontSize: '42px', color: '#FFFEFD', }} /></Link>
+                    <Link aria-label='Follow us on TikTok' href='https://www.tiktok.com/@sofraplumbingexcavation?is_from_webapp=1&sender_device=pc' className='para footer_link'><FaTiktok style={{ fontSize: '42px', color: '#FFFEFD', }} /></Link>
+                    <Link aria-label='Follow us on Instagram' href='https://www.instagram.com/sofra_plumbingexcavation?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' className='para footer_link'><FaInstagram style={{ fontSize: '42px', color: '#FFFEFD', }} /></Link>
                 </div>
             </div>
             <hr />

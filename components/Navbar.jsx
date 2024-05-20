@@ -34,7 +34,7 @@ const Navbar = () => {
                         </Link>
                     </div>
 
-                    <Image className='nav_logo-2' src='/images/LogoTP.png' alt='logo' width={130} height={70} />
+                    <Image className='nav_logo-2' src='/images/LogoTP.png' alt='logo' width={128} height={65} />
                     <IoIosMenu className='burger' onClick={toggleOverlay} />
                 </div>
                 <hr className='nav_line' />
