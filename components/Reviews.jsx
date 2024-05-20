@@ -9,7 +9,7 @@ const Reviews = () => {
     return (
         <section className='reviews_section'>
             <div className='intro_background-container'>
-                <Image src='/images/Hero2.svg' alt='Hero Background' layout='fill' className='intro_background' />
+                <Image src='/images/Hero.jpg' alt='Hero Background' layout='fill' className='intro_background' quality={90} />
             </div>
             <div className='reviews_text-section'>
                 <h4 className='main_heading'>What do our clients have to say <span> about us and our services</span></h4>
