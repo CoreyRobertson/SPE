@@ -23,7 +23,7 @@ const Intro = () => {
     return (
         <section className='intro_section'>
             <div className='intro_background-container'>
-                <Image className='intro_background' src='/images/BG.jpg' layout='fill' alt='intro background' quality={90} />
+                <Image className='intro_background' src='/images/BG.jpg' layout='fill' alt='intro background' quality={100} />
             </div>
             <div className='intro_body'>
                 {/* Conditional layout based on isMobile state */}
