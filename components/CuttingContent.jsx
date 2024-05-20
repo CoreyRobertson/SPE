@@ -19,7 +19,11 @@ const CuttingContent = () => {
                         The versatility of concrete cutting allows for a wide range of applications, from creating openings for doors and windows to intricate decorative designs.</p>
                 </div>
             </div>
-            <button style={{ width: '15rem', marginTop: '1rem' }} type="submit" className="submit-button para">Book Now</button>
+            <a href="mailto:sofraplumbingandexcavation@gmail.com?subject=Booking%20Inquiry&body=Hi%20Sofra%20Plumbing%20and%20Excavation,%0D%0A%0D%0AI%20am%20interested%20in%20your%20services%20and%20would%20like%20to%20discuss%20booking%20details.%20Please%20let%20me%20know%20a%20suitable%20time%20to%20call%20or%20if%20I%20need%20to%20provide%20further%20information.%0D%0A%0D%0AThank%20you!"
+                style={{ width: '15rem', marginTop: '1rem', padding: '1rem', textAlign: 'center', display: 'inline-block', backgroundColor: '#4685BA', color: 'white', textDecoration: 'none' }}
+                className="submit-button para">
+                Book Now
+            </a>
         </section>
     )
 }
